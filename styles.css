@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+header {
+    background-color: #f44336;  /* Red background for the header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .logo {
+    width: 80px; /* Set a small size for the logo */
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Main content styling */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.registration-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.registration-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #f44336; /* Red color for headings */
+}
+
+.registration-form label {
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form button {
+    background-color: #f44336;  /* Red color for the button */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.registration-form button:hover {
+    background-color: #e53935; /* Darker red on hover */
+}
+
+/* Links Styling */
+a {
+    text-decoration: none;
+    color: #f44336;  /* Red color for links */
+}
+
+a:hover {
+    color: #e53935; /* Darker red on hover */
+}
+
+/* Login/Signup message styling */
+.login-signup p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.login-signup a {
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
